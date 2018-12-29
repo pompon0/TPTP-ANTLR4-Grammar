@@ -1,7 +1,7 @@
 load("@io_bazel_rules_go//go:def.bzl", "go_library")
 
 go_library(
-    name = "parser",
+    name = "go_default_library",
     srcs = [
         "tptp_v7_0_0_0_base_listener.go",
         "tptp_v7_0_0_0_lexer.go",
